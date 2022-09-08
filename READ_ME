@@ -1,0 +1,12 @@
+Pre Lab:
+    Linear Search:
+        this can be used for sorted or unsorted arrays. You look thorugh every item of a list to find
+        if the value exisits. O(n).
+    Binary Search:
+        Can only be used for a sorted array. Finds the middle of the array and if the value there
+        is greater than the target value than is performs the same process but with only that half of
+        the array. This continues until the value is found or until the array is size of one which means
+        the value is not present in the array.
+    Question: The worst case time complexity of binarys earch ocurrs when a value is not found. The time
+        complexity for this senario is O(log2(n)). This is beacue each time a middle value is checked
+        the array's size is halved.
