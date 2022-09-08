@@ -1,3 +1,8 @@
+time: 45 minutes so far
+
+comments
+
+build: make, ./lab2
 Pre Lab:
     Linear Search:
         this can be used for sorted or unsorted arrays. You look thorugh every item of a list to find
