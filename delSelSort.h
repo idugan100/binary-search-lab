@@ -1,7 +1,8 @@
 #include <array>
+#include <iostream>
 using namespace std;
-void delsort( int size,int array[]){
-
+void delSelSort( int size,int array[]){
+    
     
     int ogSize=size;
 
@@ -34,10 +35,10 @@ void delsort( int size,int array[]){
     
     size--;
     }
-    //for(int i=0;i<ogSize;i++){
-      //  cout<<array[i]<<" ";
-   // }
-    //cout<<endl;
+    for(int i=0;i<ogSize;i++){
+        cout<<array[i]<<" ";
+    }
+    cout<<endl;
 
     
 }

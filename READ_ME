@@ -1,6 +1,6 @@
-time: 45 minutes so far
+time: 1.5 hours
 
-comments
+comments: none
 
 build: make, ./lab2
 Pre Lab:
@@ -15,3 +15,6 @@ Pre Lab:
     Question: The worst case time complexity of binarys earch ocurrs when a value is not found. The time
         complexity for this senario is O(log2(n)). This is beacue each time a middle value is checked
         the array's size is halved.
+
+Post lab: I print out the average comparisons which is ussually around 13. Log base 2 of 1000 is 13.2.
+    Thus, the empirical data supports that the worst case time complexity for binary search is O(log(n))
